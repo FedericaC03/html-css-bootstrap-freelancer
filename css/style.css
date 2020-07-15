@@ -1,7 +1,41 @@
-body {
-  padding-top: 50px;
+
+
+.jumbotron {
+  background-color: #1ABC9C;
+  height: 500px;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+.bg_blue {
+  background-color: #2C3E50;
+}
+
+#t-white {
+  color: white;
+}
+
+.bg_red {
+  background-color: red;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 2%;
+}
+
+.bg_green {
+  background-color: #1ABC9C;
+  height: 400px;
+  margin-top: 50px;
+}
+
+#btn {
+  margin: -14px;
+}
+
+#label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  height: 200px;
 }

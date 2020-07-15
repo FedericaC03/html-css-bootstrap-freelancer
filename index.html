@@ -2,40 +2,99 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="icon" href="../../favicon.ico">
+   <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/jumbotron-narrow/">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title></title>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-         <div class="container">
-           <div class="navbar-header">
-             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-             </button>
-             <a class="navbar-brand" href="#">Project name</a>
-           </div>
-           <div id="navbar" class="collapse navbar-collapse">
-             <ul class="nav navbar-nav">
-               <li class="active"><a href="#">Home</a></li>
-               <li><a href="#about">About</a></li>
-               <li><a href="#contact">Contact</a></li>
-             </ul>
-           </div><!--/.nav-collapse -->
-         </div>
-       </nav>
+    <header>
+      <nav class="bg_blue navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header col-md-7">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="t-white" class="navbar-brand" href="#">START BOOTSTRAP</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse col-md-5">
+          <ul class="nav navbar-nav">
+            <li><a id="t-white" href="#portfolio">PORTFOLIO</a></li>
+            <li><a id="t-white" href="#about">ABOUT</a></li>
+            <li><a id="t-white" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <div class="jumbotron"></div>
+  </header>
+  <main>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>PORTFOLIO</h1>
+        </div>
+        <div class="row gutter-10">
+          <div class="bg_red col-md-3"></div>
+          <div class="bg_red col-md-3"></div>
+          <div class="bg_red col-md-3"></div>
+          <div class="bg_red col-md-3"></div>
+          <div class="bg_red col-md-3"></div>
+          <div class="bg_red col-md-3"></div>
+      </div>
+    </section>
+    <section class="bg_green">
 
-       <div class="container">
-
-         <div class="starter-template">
-           <h1>Bootstrap starter template</h1>
-           <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-         </div>
-
-       </div>
+    </section>
+    <section>
+      <form id="label" class="container">
+        <div class="form-group row">
+          <label for="example-tel-input" class="col-2 col-form-label">Name</label>
+          <div class="col-10">
+            <input class="form-control" type="tel" value="" id="example-tel-input">
+          </div>
+        </div>
+          <div class="form-group row">
+            <label for="example-email-input" class="col-2 col-form-label">Email</label>
+            <div class="col-10">
+              <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="example-tel-input" class="col-2 col-form-label">Phone number</label>
+            <div class="col-10">
+              <input class="form-control" type="tel" value="" id="example-tel-input">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">Message</label>
+            <div class="col-10">
+              <input class="form-control" type="text" value="" id="example-text-input">
+            </div>
+          </div>
+          <button id="btn" type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer bg_blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>
