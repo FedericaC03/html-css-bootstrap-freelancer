@@ -54,14 +54,43 @@ nav ul li {
 .fa-star {
   font-size: 30px;
 }
+
+/* SECTION PORTFOLIO  */
+#porfolio h1 {
+  color: #2C3E50;
+  font-size: 50px;
+  font-weight: 700;
+}
 .bg_red {
-  background-color: red;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.overlay {
+  background-color: #1ABC9C;
   height: 250px;
+  width: 346px;
   border-radius: 10px;
-  border: 2px solid black;
-  margin-bottom: 20px;
+  position: relative;
 }
 
+.bg_red img {
+  width: auto;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.bg_red img:hover {
+  opacity: 0.2;
+}
+
+.overlay .fa-plus {
+  display: none;
+  top:50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50% , -50%);
+
+}
 .bg_green {
   background-color: #1ABC9C;
   height: 400px;
