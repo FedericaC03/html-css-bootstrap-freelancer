@@ -1,20 +1,59 @@
 *{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
-.jumbotron {
-  background-color: #1ABC9C;
-  height: 500px;
+/* HEADER */
+.header_top {
+  height: 100px;
 }
 
 .bg_blue {
   background-color: #2C3E50;
 }
-
-#t-white {
+nav ul li {
+  display: inline;
+}
+#my_menu {
+  color: white;
+  font-weight: bold;
+  line-height: 90px;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+#start_bootstrap{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  line-height: 90px;
+}
+#my_menu:hover {
+  color: #1ABC9C;
+}
+.jumbotron {
+  background-color: #1ABC9C;
+  height: 600px;
   color: white;
 }
-
+.my_avatar {
+  width: 250px;
+  height: auto;
+}
+.jumbotron h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.my_star {
+  display: inline;
+}
+.border_top hr{
+    width: 100%;
+    max-width: 7rem;
+    color: white;
+    display: inline;
+}
+.fa-star {
+  font-size: 30px;
+}
 .bg_red {
   background-color: red;
   height: 250px;
