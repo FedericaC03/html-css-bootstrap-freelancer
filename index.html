@@ -20,8 +20,8 @@
      <div class="header_top bg_blue">
        <div class="container">
          <div class="row">
-           <div id="start_bootstrap" class="col-xs-6 col-md-6"> START BOOTSTRAP </div>
-           <div class="col-xs-6 col-md-6 text-right">
+           <div id="start_bootstrap" class="col-xs-9 col-md-6"> START BOOTSTRAP </div>
+           <div class="col-xs-3 col-md-6 text-right">
              <!-- navigation -->
              <nav class="visible-md visible-lg">
                <ul>
@@ -33,10 +33,10 @@
              <!-- /navigation -->
              <!-- hamburger -->
              <div class="visible-xs visible-sm">
-               <button type="button" class="btn btn-default" aria-label="Left Align">
-                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-               </button>
-             </div>
+                <button id="hamburger" type="button" class="btn btn-lg btn_green" aria-label="Left Align">
+                  <span>MENU</span> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+              </div>
              <!-- /hamburger -->
            </div>
          </div>
@@ -66,10 +66,10 @@
    </header>
   <main>
     <!-- sezione portfolio -->
-    <section id="porfolio" class=" container">
+    <section id="portfolio" class=" container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1>PORTFOLIO</h1>
+          <h2>PORTFOLIO</h2>
           <div class="stella text-center">
             <div class="h_line_blue">
             </div>
@@ -116,7 +116,7 @@
         <div class="container-img">
           <img class="img-responsive" src="img/safe.png" alt="safe">
           </div>
-            <div class="overlay">
+            <div class="overlay ">
               <i class="fas fa-plus"></i>
       </div>
       </div>
@@ -145,10 +145,10 @@
          </div>
        </div>
        <div class="row box">
-         <div class="col-md-6 col-sm-6 col-xs-12">
+         <div class="col-md-6 col-sm-12 col-xs-12">
            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
          </div>
-         <div class="col-md-6 col-sm-6 col-xs-12">
+         <div class="col-md-6 col-sm-12 col-xs-12">
            <p class="m_left">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
          </div>
        </div>
@@ -175,7 +175,7 @@
           </div>
         </div>
           <div class="form-group row">
-            <label for="example-email-input" class="col-2 col-form-label">Email</label>
+            <label for="example-email-input" class="col-2 col-form-label">Email Address</label>
             <div class="col-10">
               <input class="form-control" type="email" value="" id="example-email-input">
             </div>
@@ -197,14 +197,14 @@
     </section>
   </main>
   <footer class="footer  align_center">
-    <div class="container-fluid bg_blue">
+    <div class="container-fluid bg_blue footer_top">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <h2>LOCATION</h2>
-          <h3>2215 John Daniel Drive Clark, MO 65243</h3>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <h2 id="location">LOCATION</h2>
+          <h3>2215 John Daniel Drive <br> Clark, MO 65243</h3>
         </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="col-md-4 col-sm-12 col-xs-12">
           <h2>AROUND THE WEB</h2>
           <ul class="social m_top">
             <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -213,7 +213,7 @@
             <li> <a href="#"><i class="fas fa-basketball-ball"></i></a></li>
           </ul>
         </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="col-md-4 col-sm-12 col-xs-12">
           <h2>ABOUT FREELANCER</h2>
           <h3>Freelance is a free to use, MIT licensed Bootstrap theme created by</h3>
           <a id="start_footer" href="#">Start Bootstrap.</a>
@@ -223,7 +223,7 @@
   </div>
       <div class="container-fluid footer_bottom ">
       <div class="row">
-        <div class="col-md-12">
+        <div class="copy col-md-12">
            <p>Copyright © Your Website 2020</p>
         </div>
       </div>
