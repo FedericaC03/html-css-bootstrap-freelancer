@@ -39,14 +39,14 @@ nav ul li {
   color: #1ABC9C;
 }
 
- .bg_green {
-   background-color: #1ABC9C;
- }
- .bg_light_blue {
-   background-color: #2C3E50;
- }
+.bg_green {
+  background-color: #1ABC9C;
+}
+.bg_light_blue {
+  background-color: #2C3E50;
+}
 
- .btn_green {
+.btn_green {
    background-color: #1ABC9C;
    font-size: 13px;
    font-weight: bold;
@@ -55,12 +55,12 @@ nav ul li {
    top: 20px;
    right: 10px;
    position: absolute;
- }
+}
 
- .btn_green .glyphicon {
+.btn_green .glyphicon {
    vertical-align: middle;
    margin-top: -5px;
- }
+}
 
 .jumbotron {
   background-color: #1ABC9C;
@@ -78,7 +78,7 @@ nav ul li {
   font-size: 65px;
   font-weight: 700;
 }
-
+/* / HEADER */
 /* SECTION PORTFOLIO  */
 #portfolio h2 {
   color: #2C3E50;
@@ -120,6 +120,7 @@ nav ul li {
   display: block;
   cursor: pointer;
 }
+/* / SECTION PORTFOLIO */
 /* SECTION ABOUT */
 .box {
   width: 55%;
@@ -186,7 +187,7 @@ nav ul li {
 #btn:hover {
   background-color: #159A80;
 }
-
+/* / SECTION ABOUT */
 /* SECTION CONTACT ME  */
 #label {
   margin-top: 20px;
@@ -198,8 +199,8 @@ nav ul li {
   color: #2C3E50;
   font-size: 50px;
   font-weight: 700;
-  }
-
+}
+/* / SECTION CONTACT ME  */
 /* FOOTER */
 footer {
   color: white;
@@ -209,7 +210,7 @@ footer {
   height: 300px;
 }
 
- .social li {
+.social li {
   display: inline;
   border: 2px solid white;
   border-radius: 100%;
@@ -258,6 +259,7 @@ footer {
 .social li:hover a {
   color: #1a252f;
 }
+
 #start_footer {
   font-size: 20px;
   text-decoration: none;
@@ -268,6 +270,7 @@ footer {
  text-decoration: underline;
  color: #157061;
 }
+
 .copy {
   font-size: 13px;
 }
@@ -298,6 +301,8 @@ footer {
   vertical-align: middle;
   display: inline-block;
 }
+/* / BOX STELLA LINEA */
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 991px) {
@@ -305,20 +310,25 @@ footer {
   font-size: 45px;
   line-height: 45px;
 }
+
 .jumbotron h3 {
   font-size: 20px;
 }
+
 #portfolio h2 , #about h2 , #contact_me h2 {
   font-size: 35px;
   margin-top: 100px;
 }
+
 .box {
   width: 85%;
   margin:auto;
 }
+
 #label {
   width: 70%;
 }
+
 .social {
   margin-bottom: 0;
 }
@@ -331,29 +341,36 @@ footer {
   margin: auto;
   margin-bottom: 40px;
 }
+
 .overlay {
   width: 77%;
   margin-left: 72px;
   height: 91.5%;
-  }
+}
+
 .box {
   width: 85%;
   margin:auto;
 }
+
 .box p {
   font-size: 20px;
   line-height: 30px;
 }
+
 .footer_top {
   height: 600px;
 }
+
 .footer_bottom {
   height: 70px;
   line-height: 70px;
 }
+
 .footer_top h2 {
   margin-top: 40px;
 }
+
 #location {
   margin-top: 100px;
 }
